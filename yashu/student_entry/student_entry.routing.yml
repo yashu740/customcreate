@@ -1,0 +1,7 @@
+student_entry.show:
+  path: '/values'
+  defaults:
+    _controller: 'Drupal\student_entry\Controller\StudentEntryDisplay::show'
+    _title: 'Student Submitted Values'
+  requirements:
+    _permission: 'access content'
