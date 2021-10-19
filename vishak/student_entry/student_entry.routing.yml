@@ -1,0 +1,15 @@
+student_entry.display:
+  path: '/values'
+  defaults:
+    _controller: 'Drupal\student_entry\Controller\StudentEntryValues::display'
+    _title: 'Student Submitted Values'
+  requirements:
+    _permission: 'access content'
+
+student_entry.update_links:
+  path: '/students'
+  defaults:
+    _form: '\Drupal\student_entry\Form\studentEntry'
+    _title: 'Student Form'
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,7 @@
+name: Student Entry Form
+description: Student Entry Form
+package: custom
+type: module
+dependencies:
+  - block
+core_version_requirement: ^8.8 || ^9
